@@ -1,5 +1,9 @@
 local Utils = require("watson.utils")
 
+local function summary()
+  print(":WatsonSummary coming soon")
+end
+
 local function status()
   print(Utils.exec("watson status"))
 end
@@ -13,6 +17,7 @@ local function restart()
 end
 
 return {
+  summary = summary,
   status = status,
   stop = stop,
   restart = restart,
