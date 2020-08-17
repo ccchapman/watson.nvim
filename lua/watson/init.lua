@@ -1,1 +1,9 @@
-print("watson.nvim was loaded")
+local Utils = require("watson.utils")
+
+local function status()
+  print(Utils.exec("watson status"))
+end
+
+return {
+  status = status,
+}
