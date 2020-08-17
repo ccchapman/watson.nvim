@@ -15,6 +15,11 @@ An integration for [Watson](https://tailordev.github.io/Watson/) in
 :WatsonStatus
 ```
 
+**Start:**
+```
+:WatsonStart <project>
+```
+
 **Stop:**
 ```
 :WatsonStop
