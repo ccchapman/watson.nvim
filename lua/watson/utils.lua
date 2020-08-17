@@ -7,4 +7,5 @@ end
 
 return {
   exec = exec,
+  api = vim.api,
 }

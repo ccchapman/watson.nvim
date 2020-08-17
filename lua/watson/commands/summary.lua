@@ -1,6 +1,6 @@
-local api = vim.api
+local Utils = require("watson.utils")
 
-api.nvim_command("com! Watson call luaeval('watson.summary()')")
+Utils.api.nvim_command("com! Watson call luaeval('watson.summary()')")
 
 local function summary()
   print("Coming soon")

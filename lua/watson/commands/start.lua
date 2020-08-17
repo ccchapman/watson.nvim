@@ -1,6 +1,6 @@
-local api = vim.api
+local Utils = require("watson.utils")
 
-api.nvim_command(
+Utils.api.nvim_command(
   "com! -nargs=1 WatsonStart call luaeval('watson.start(_A)', expand('<args>'))"
 )
 

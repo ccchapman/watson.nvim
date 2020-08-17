@@ -1,6 +1,6 @@
-local api = vim.api
+local Utils = require("watson.utils")
 
-api.nvim_command("com! WatsonRestart call luaeval('watson.restart()')")
+Utils.api.nvim_command("com! WatsonRestart call luaeval('watson.restart()')")
 
 local function restart()
   print(Utils.exec("watson restart"))

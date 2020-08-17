@@ -1,5 +1,3 @@
-local Utils = require("watson.utils")
-
 return {
   summary = require("watson.commands.summary").summary,
   status = require("watson.commands.status").status,

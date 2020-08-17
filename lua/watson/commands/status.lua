@@ -1,6 +1,6 @@
-local api = vim.api
+local Utils = require("watson.utils")
 
-api.nvim_command("com! WatsonStatus call luaeval('watson.status()')")
+Utils.api.nvim_command("com! WatsonStatus call luaeval('watson.status()')")
 
 local function status()
   print(Utils.exec("watson status"))
