@@ -5,9 +5,24 @@ An integration for [Watson](https://tailordev.github.io/Watson/) in
 
 ## Commands
 
+**Summary:**
+```
+:Watson
+```
+
 **Status:**
 ```
 :WatsonStatus
+```
+
+**Stop:**
+```
+:WatsonStop
+```
+
+**Restart:**
+```
+:WatsonRestart
 ```
 
 ## Ideas
