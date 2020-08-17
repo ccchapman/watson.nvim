@@ -3,7 +3,7 @@ local api = vim.api
 api.nvim_command("com! Watson call luaeval('watson.summary()')")
 
 local function summary()
-  print(":WatsonSummary coming soon")
+  print("Coming soon")
 end
 
 return {
