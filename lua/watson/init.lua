@@ -1,21 +1,9 @@
 package.loaded["watson"] = nil
 
-local Utils = require("watson.utils")
-
-local function status()
-  print(Utils.exec("watson status"))
-end
-
-local function stop()
-  print(Utils.exec("watson stop"))
-end
-
-local function restart()
-  print(Utils.exec("watson restart"))
-end
+local Commands = require("watson.commands")
 
 return {
-  status = status,
-  stop = stop,
-  restart = restart,
+  status = Commands.status,
+  stop = Commands.stop,
+  restart = Commands.restart,
 }
