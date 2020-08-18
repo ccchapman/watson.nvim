@@ -3,9 +3,20 @@
 An integration for [Watson](https://tailordev.github.io/Watson/) in
 [Neovim](https://neovim.io/).
 
-## Commands
+## Usage
 
-**Summary:**
+### Remaps
+
+Here are some example remaps to get you started:
+```vimscript
+nmap <leader>ts :WatsonStart<space>
+" Think 'time end'
+nmap <leader>te :WatsonStop<cr>
+```
+
+### Commands
+
+**Summary:** __(coming soon)__
 ```
 :Watson
 ```
