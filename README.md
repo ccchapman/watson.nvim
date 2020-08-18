@@ -3,15 +3,30 @@
 An integration for [Watson](https://tailordev.github.io/Watson/) in
 [Neovim](https://neovim.io/).
 
+## Installation
+
+**Prerequisites:**
+  - [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim) >= 1.10.0
+  - [Watson](https://tailordev.github.io/Watson/#installation) >= 0.4.4
+
+Use your favourite package manager.
+
+```
+Plug 'ccchapman/watson.nvim', { 'branch': 'main' }
+```
+
 ## Usage
 
 ### Remaps
 
 Here are some example remaps to get you started:
 ```vim
+" Think 'time start'
 nmap <leader>ts :WatsonStartCwd<cr>
 " Think 'time end'
 nmap <leader>te :WatsonStop<cr>
+" Think 'time restart'
+nmap <leader>tr :WatsonRestart<cr>
 ```
 
 ### Commands
