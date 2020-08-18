@@ -6,6 +6,4 @@ local function summary()
   print("Coming soon")
 end
 
-return {
-  summary = summary,
-}
+return summary

@@ -1,8 +1,8 @@
 return {
-  summary = require("watson.commands.summary").summary,
-  status = require("watson.commands.status").status,
-  start = require("watson.commands.start").start,
+  summary = require("watson.commands.summary"),
+  status = require("watson.commands.status"),
+  start = require("watson.commands.start"),
   startCwd = require("watson.commands.startCwd"),
-  stop = require("watson.commands.stop").stop,
-  restart = require("watson.commands.restart").restart,
+  stop = require("watson.commands.stop"),
+  restart = require("watson.commands.restart"),
 }

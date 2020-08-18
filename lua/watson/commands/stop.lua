@@ -6,6 +6,4 @@ local function stop()
   print(Utils.exec("watson stop"))
 end
 
-return {
-  stop = stop,
-}
+return stop

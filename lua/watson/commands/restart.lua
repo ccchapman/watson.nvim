@@ -6,6 +6,4 @@ local function restart()
   print(Utils.exec("watson restart"))
 end
 
-return {
-  restart = restart,
-}
+return restart

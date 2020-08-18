@@ -6,6 +6,4 @@ local function status()
   print(Utils.exec("watson status"))
 end
 
-return {
-  status = status,
-}
+return status

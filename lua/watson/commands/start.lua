@@ -8,6 +8,4 @@ local function start(project)
   print(Utils.exec("watson start "..project))
 end
 
-return {
-  start = start,
-}
+return start
