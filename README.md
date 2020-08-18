@@ -9,7 +9,7 @@ An integration for [Watson](https://tailordev.github.io/Watson/) in
 
 Here are some example remaps to get you started:
 ```vim
-nmap <leader>ts :WatsonStart<space>
+nmap <leader>ts :WatsonStartCwd<cr>
 " Think 'time end'
 nmap <leader>te :WatsonStop<cr>
 ```
@@ -29,6 +29,14 @@ nmap <leader>te :WatsonStop<cr>
 **Start:**
 ```vim
 :WatsonStart <project>
+```
+
+**Start using the current workspace:**
+
+For example, you're editing `~/Sites/foo` and want to start tracking `foo`.
+
+```vim
+:WatsonStartCwd
 ```
 
 **Stop:**
