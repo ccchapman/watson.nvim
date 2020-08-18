@@ -8,7 +8,7 @@ An integration for [Watson](https://tailordev.github.io/Watson/) in
 ### Remaps
 
 Here are some example remaps to get you started:
-```vimscript
+```vim
 nmap <leader>ts :WatsonStart<space>
 " Think 'time end'
 nmap <leader>te :WatsonStop<cr>
@@ -17,27 +17,27 @@ nmap <leader>te :WatsonStop<cr>
 ### Commands
 
 **Summary:** __(coming soon)__
-```
+```vim
 :Watson
 ```
 
 **Status:**
-```
+```vim
 :WatsonStatus
 ```
 
 **Start:**
-```
+```vim
 :WatsonStart <project>
 ```
 
 **Stop:**
-```
+```vim
 :WatsonStop
 ```
 
 **Restart:**
-```
+```vim
 :WatsonRestart
 ```
 
