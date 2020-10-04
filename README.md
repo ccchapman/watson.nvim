@@ -6,8 +6,8 @@ An integration for [Watson](https://tailordev.github.io/Watson/) in
 ## Installation
 
 **Prerequisites:**
-  - [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim) >= 1.10.0
-  - [Watson](https://tailordev.github.io/Watson/#installation) >= 0.4.4
+  - [Neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim) >= 0.4.4
+  - [Watson](https://tailordev.github.io/Watson/#installation) >= 1.10.0
 
 Use your favourite package manager.
 
